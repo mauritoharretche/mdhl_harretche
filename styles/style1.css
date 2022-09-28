@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+main{
+    flex-grow: 1;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.header div img{
+    width: 120px;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: top;
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+}
+.menu li{
+    padding: 0.5rem;
+}
+
+.menu li a{
+    text-decoration: none;
+    font-size: 1.7rem;
+    padding: 16px 12px;
+    color: #fff;
+    border-bottom: 4px solid transparent;
+    transition: border 0.3s ease;
+
+}
+.menu li a:hover{
+    border-bottom-color: #e84855;
+}
+
+.menu li a.active{
+    border-bottom-color: #e84855;
+}
+
+.background-main{
+    background-color: #181818;
+}
+.titulares{
+    padding: 1rem;
+    background-color: #222;
+    color: #eee;
+    text-align: end;
+}
+
+.flex-container{
+    display: flex;
+    align-items: center;
+}
+.flex-item{
+    flex: 0 0 50%;
+    color: #fff;
+}
+.flex-item img{
+    padding-left: 2rem;
+}
+
+.flex-order-1{
+    order: 1;
+}
+.h2-top{
+    color: #fff;
+}
+
+.hero-image{
+    min-height: 100vh;
+    background-image: url(../assets/images/hockey1.jpg);
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+.hero-image div{
+    min-height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(0, 0, 0, .65);
+}
+
+.hero-image h1{
+    font-size: 5vw;
+}
+
+.button:hover{
+    background: transparent;
+    color: white;
+}
+
+.titulares-sche{
+    display: flex;
+    justify-content: space-between;
+}
+
+.titulares-sche a{
+    color: #fff;
+}
+
+caption{
+    caption-side: bottom;
+    padding-right: 3rem;
+    margin-bottom: .5rem;
+    margin-top: 3rem;
+}
+
+th{
+    padding: .5rem;
+
+}
+td{
+    padding: .5rem;
+}
+
+.table{
+    text-align: center;
+    width: 100%;
+}
+
+.flex-color{
+    color: #181818;
+}
+.flex-color>p{
+    text-decoration: none;
+}
+
+.flex-item1{
+    flex: 0 0 30%;
+    color: #181818;
+    padding-right: 3rem;
+    margin-left: 2rem;
+}
+
+.letter{
+    list-style-type: lower-alpha;
+}
+
+.flex-item2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: start;
+}
+
+.flex-item4{
+    padding-top: 2rem;
+}
+
+.background1{
+    background-color: dimgray;
+}
+
+.h2-move{
+    text-align: center;
+}
+
+
+.flex-item{
+    text-align: center;
+    font-size: 24px;
+    padding-top: 2rem;
+}
+
+.mail {
+    border: 0px solid #2e518b;
+    padding: 10px;
+    background-color: #205bbaad;
+    border-radius: 10px;
+    font-size: 30px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.mail:hover{
+    background: #fff;
+    color: #2e518b;
+}
+
+
+
+#solop p{
+    padding-top: 2rem;
+}
+
+.flex-color2{
+    color: white;
+}
+
+.border-none{
+    border: none;
+    padding-top: 1rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    
+}
+
+iframe{
+    width: 150px;
+    height: 70px;
+    border: none;
+}
+iframe:hover{
+    transform: scale(2);
+    transition: 1s ease-out;
+}
+
+
+.btn1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem;
+}
+.btn1 input{
+    border: 0px solid #2e518b;
+    padding: 10px;
+    background-color: #205bbaad;
+    border-radius: 10px;
+    font-size: 30px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.center-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.big-letter{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.conteiner-mr{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+    color: #fff;
+    margin-top: 50px;
+    font-size: 24px;
+}
+.container-sr{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+.mini-container{
+    display: flex;
+    flex-direction: column;
+    width: 33.3%;
+    height: 100%;
+    text-align: left;
+    color: #fff;
+    padding: 7px;
+    border-left: 1.5px solid #e84855;
+    font-size: 24px;
+    
+}
+.mini-container > p , li {
+    font-size: 20px;
+} 
+
+
+ol ,ul ,li{
+    list-style-position: inside;
+}
